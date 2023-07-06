@@ -1,0 +1,44 @@
+.App{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(201, 236, 224);
+}
+
+.App__tableCell{
+    border: 2px solid black;
+}
+
+.App_filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.App_sort{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.App__pager{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.App__tableHeader>th{
+    background-color: rgb(217, 243, 131);
+}
+
+.App__tableOdd>td{
+    background-color: rgb(249, 206, 191);
+}
+
+.App__tableEven>td{
+    background-color: rgb(181, 251, 176);
+}
